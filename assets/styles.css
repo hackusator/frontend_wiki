@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: "Source-Sans-Pro", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: 80px;
+    top: 0;
+    background: white;
+    position: sticky;
+}
+
+.nav-items ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items ul li {
+    position: relative;
+    list-style: none;
+}
+
+.nav-items ul li a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+.logo img {
+    width: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.search button {
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    border: 1px solid #eee;
+}
+
+.search input {
+    width: 500px;
+}
+
+.search form {
+    border: 1px solid #eee;
+    height: 45;
+}
+
+.mainBody {
+    display: flex;
+    height: 100%;
+    background: #fafafa;
+}
+
+.leftBar {
+    width: 200px;
+    background: white;
+    height: 200vh;
+    float: left;
+}
+.leftBarLinks ul {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.leftBarLinks ul a {
+    display: block;
+    padding-bottom: 10px;
+    line-height: 20px;
+    text-decoration: none;
+    padding-left: 0px;
+    padding-bottom: 15px;
+}
+
+.bio {
+    height: 100%;
+    margin: 100 auto;
+    width: 90%;
+    padding: 10px;
+}
+.bio .img-diogenes {
+    float: right;
+    width: 400px;
+    margin: 20px;
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #303036;
+    color: gray;
+    padding: 5px;
+
+}
+
+
